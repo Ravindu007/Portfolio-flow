@@ -22,9 +22,11 @@ header{
 
   .navigation-bar{
     padding-top: 10px;
-    position: sticky;
+    right: 10px;
+    position: fixed;
+    border-bottom: 1px aqua solid;
     list-style: none;
-    float: right;
+   
   }
       .navigation-bar li{
         display: inline-block;
@@ -83,4 +85,33 @@ header{
         color: aqua;
       }
 
+}
+
+/*-----------------------------------------------------------------------------*/
+/*----------------------------about-me----------------------------------------*/
+.section-about-me{
+  background-color: rgb(8, 85, 85);
+  background-image: linear-gradient(rgb(8, 85, 85),rgb(52, 145, 145));
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*----------------------------skills----------------------------------------*/
+.section-skills{
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(52, 145, 145) ;
+  background-image: linear-gradient(rgb(52, 145, 145),rgb(30, 179, 179));
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/*----------------------------life----------------------------------------*/
+.section-life{
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(30, 179, 179) ;
+  background-image: linear-gradient(rgb(30, 179, 179),rgb(8, 85, 85));
 }
